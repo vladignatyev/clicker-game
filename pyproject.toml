@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hyperdiv-session-integration"
+version = "0.1.0"
+description = ""
+authors = ["Vladimir Ignatev <ya.na.pochte@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+hyperdiv-session = "^0.1.0"
+hyperdiv = "^0.1.8"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
